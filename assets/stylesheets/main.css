@@ -1,0 +1,161 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Main body layout */
+body {
+	background-color: rgba(13, 9, 60, 0.85);
+	color: #999;
+	font: 400 15px/20px "PT Sans", Helvetica, Arial, sans-serif;
+}
+
+/* Typography */
+p {
+	margin-bottom: 5px;
+	text-align: justify;
+	text-indent: 15px;
+}
+a {
+	text-decoration: none;
+}
+
+/* Containers */
+.main {
+	background-color: #fff;
+	height: 100%;
+	margin: 25px auto;
+	padding: 20px 10px 0 10px;
+	width: 900px;
+}
+
+/* Header */
+header {
+	margin-bottom: 40px;
+}
+.personal-logo {
+	float: right;
+	text-align: right;
+}
+.personal-logo h1 {
+	color: #0d093c;
+	font: 400 40px/45px "Bad Script", Helvetica, Arial, sans-serif;
+	margin-bottom: 9px;
+}
+.personal-logo h3 {
+	font: 400 25px/30px "Bad Script", Helvetica, Arial, sans-serif;
+}
+
+/* General section styles */
+section {
+	margin-top: 35px;
+}
+section h4 {
+	color: #0d093c;
+	font-weight: 600;
+	letter-spacing: 3px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+
+/* Introduction Section */
+.intro h3 {
+	font: 400 25px/30px "Bad Script", Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+.intro img {
+	border-radius: 10px;
+	display: block;
+	height: 200px;
+	margin: 25px auto 10px auto;
+}
+
+/* Experience */
+.experience table {
+	margin: auto;
+}
+.experience th {
+	font-weight: 700;
+	text-align: left;
+	width: 200px;
+}
+
+/* Contact */
+.contact {
+	margin-bottom: 35px;
+}
+.contact-icon {
+	color: #0d093c;
+	margin: 5px 0 0 15px;
+}
+.contact-icon:hover {
+	color: #999;
+}
+.first-contact-icon {
+	margin-left: 0;
+}
+.contact-icons {
+	text-align: center;
+}
+.goodreads {
+    font-family: Arial, Sans-Serif;
+    font-size: 45px;
+    line-height: 45px;
+    vertical-align: top;
+}
+
+/* Footer */
+footer {
+	font-size: 12px;
+	margin-bottom: 10px;
+	position: relative;
+}
+.copy {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
