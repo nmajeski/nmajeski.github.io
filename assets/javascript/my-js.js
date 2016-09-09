@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(window).ready(function() {
 	/**
 	 * I want every link in the page to scroll. So use $.localScroll.
 	 */
